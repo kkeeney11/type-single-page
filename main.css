@@ -48,6 +48,30 @@ footer{
 
 /* variable font animation */
 h3{
+    font-weight:30; 
+    text-align: center;
+    font-size: 5em;
+    font-variation-settings: "opsz" 50, "wght" 700, "SOFT" 0, "WONK" 0;
+
+}
+h4{
+    font-weight:20; 
+    text-align: center;
+    font-size: 4em;
+    text-indent: 20px;
+    font-variation-settings: "opsz" 70, "wght" 500, "SOFT" 0, "WONK" 0;
+
+}
+h5{
+    font-weight:10; 
+    text-align: center;
+    font-size: 3em;
+    text-indent: 40px;
+    font-variation-settings: "opsz" 90, "wght" 300, "SOFT" 0, "WONK" 0;
+
+}
+
+h6{ 
     font-weight:20; 
     text-align: center;
     font-size: 5em;
