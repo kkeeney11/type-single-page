@@ -11,10 +11,11 @@
      } */
 
     body{
-    background-color: rgb(255, 255, 255);
+    background-color: #f8917a;
     font-family: 'Fraunces';
     margin:0;
     padding:0;
+
 }
 /* how the page wrapper will appear on mobile */
 .page-wrapper{
@@ -40,20 +41,32 @@ grid-template-areas:
 #history {
 grid-area: h;
 margin-left: 10px;
-background-color: #f2836b;
-border-color: #f2836b;
+background-color: #F2594B;
+border-color: #F2594B;
 border-style: solid; 
 border-width: 10px;
 border-radius: 10px;
-text-align: center;
+text-align: left;
+
 }
 
 #variations{
 grid-area: v; 
 margin-left: 10px;
 margin-top: -40px;
-text-align: center; 
-background-image: url("assets/grid.png"); 
+text-align: left; 
+background-color: #F2E1AC;
+border-color: #F2E1AC;
+border-style: solid; 
+border-width: 10px;
+border-radius: 10px;
+font-variation-settings: "opsz" 500, "wght" 300, "SOFT" 0, "WONK" 0;
+
+}
+
+.glyphs{
+    font-size:60px;
+    letter-spacing: 20px;
 }
 
 #alphabet {
@@ -63,6 +76,7 @@ grid-area: a;
 /* CSS for the footer */
 footer{
     background-color: #b3b3b3;
+    background-image: url("assets/grid.png");  
 }
 
 
@@ -72,7 +86,7 @@ h3{
     text-align: center;
     font-size: 5em;
     font-variation-settings: "opsz" 50, "wght" 700, "SOFT" 0, "WONK" 0;
-    
+    background-image: url("assets/grid.png"); 
 }
 h4{
     font-weight:20; 
@@ -80,9 +94,12 @@ h4{
     font-size: 4em;
     text-indent: 120px;
     font-variation-settings: "opsz" 90, "wght" 300, "SOFT" 0, "WONK" 0;
-    margin-top: -70px;
+    margin-top: -80px;
     padding-top: 0px;
-    
+    background-color: #63a69f;
+    border-color: #63a69f;
+    border-style: solid; 
+    border-width: 10px;
 }
 h5{
     font-weight:10; 
@@ -92,6 +109,7 @@ h5{
     font-variation-settings: "opsz" 70, "wght" 500, "SOFT" 0, "WONK" 0;
     margin-top: -90px;
     padding-top: 0px;
+    background-color: white;
 }
 
 h6{ 

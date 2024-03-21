@@ -57,7 +57,7 @@
   }
   /* where to change the font color of the nav bar pop-up */
   nav a:hover {
-      color: white;
+      color: #F2E1AC;
   }
   
   .nav-checkbox:checked ~ nav {
