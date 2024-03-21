@@ -6,10 +6,15 @@
     font-style: normal;
     font-weight: normal;
     }
-    
+    /* *{
+     border: blue 3px dashed;
+     } */
+
     body{
-    background-color: lightsteelblue;
+    background-color: rgb(255, 255, 255);
     font-family: 'Fraunces';
+    margin:0;
+    padding:0;
 }
 /* how the page wrapper will appear on mobile */
 .page-wrapper{
@@ -28,23 +33,38 @@ grid-template-areas:
     "h v"
     "a a";
 }
+    
+}
 
-.history {
+
+#history {
 grid-area: h;
+margin-left: 10px;
+background-color: #f2836b;
+border-color: #f2836b;
+border-style: solid; 
+border-width: 10px;
+border-radius: 10px;
+text-align: center;
 }
 
-.variations{
-grid-area: v;
+#variations{
+grid-area: v; 
+margin-left: 10px;
+margin-top: -40px;
+text-align: center; 
+background-image: url("assets/grid.png"); 
 }
 
-.alphabet {
+#alphabet {
 grid-area: a;
 }
-}
+
 /* CSS for the footer */
 footer{
-    background-color: gray;
+    background-color: #b3b3b3;
 }
+
 
 /* variable font animation */
 h3{
@@ -52,23 +72,26 @@ h3{
     text-align: center;
     font-size: 5em;
     font-variation-settings: "opsz" 50, "wght" 700, "SOFT" 0, "WONK" 0;
-
+    
 }
 h4{
     font-weight:20; 
-    text-align: center;
+    text-align: left;
     font-size: 4em;
-    text-indent: 20px;
-    font-variation-settings: "opsz" 70, "wght" 500, "SOFT" 0, "WONK" 0;
-
+    text-indent: 120px;
+    font-variation-settings: "opsz" 90, "wght" 300, "SOFT" 0, "WONK" 0;
+    margin-top: -70px;
+    padding-top: 0px;
+    
 }
 h5{
     font-weight:10; 
     text-align: center;
     font-size: 3em;
-    text-indent: 40px;
-    font-variation-settings: "opsz" 90, "wght" 300, "SOFT" 0, "WONK" 0;
-
+    text-indent: 250px;
+    font-variation-settings: "opsz" 70, "wght" 500, "SOFT" 0, "WONK" 0;
+    margin-top: -90px;
+    padding-top: 0px;
 }
 
 h6{ 
@@ -76,6 +99,8 @@ h6{
     text-align: center;
     font-size: 5em;
     animation: weightChange 7s infinite;
+    margin-top: 90px;
+    text-align: center; 
 }
 
 @keyframes weightChange {
@@ -111,5 +136,33 @@ h6{
     margin: 0;
     text-align: center;
     font-variation-settings: "wght" 120, "wdth" 0, "XXXX" 100;
+}
+
+footer {
+    width:100%;
+    display: grid;
+    grid-gap: 3px;
+    padding:10px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 
+        ". c c c c c c . . w . ."
+        ". c c c c c c . . s . ."
+        ". c c c c c c . . b . .";
+}
+
+.contact-wrapper {
+    grid-area: c;
+}
+
+.circle-wrapper{
+  grid-area: w;
+}
+.star-wrapper {
+    grid-area: s;
+}
+
+.star-burst-wrapper {
+    grid-area: b;
 }
 
