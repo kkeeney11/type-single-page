@@ -8,7 +8,7 @@
   
   header {
     /* where to set the color of the nav bar */
-      background: #f2594b;
+      background: #f2836b;
       text-align: center;
       top:0px;
       position: fixed;
@@ -16,6 +16,18 @@
       width: 100%
   }
   
+  .first {
+    background-color: #F2836B;
+    border-radius: 5px;
+    color: black;
+    
+    
+  }
+  .first:hover {
+    background-color: #CD2C24;
+   
+}
+
   .logo {
     margin: 0;
   }
@@ -26,16 +38,17 @@
       padding-top: 10px;
       top: 100%;
       left: 0;
-      background: #f2836b;
       border-width: 50px;
-      background-color: #f2594b;
+      background: #f2836b;
+      background-color: #F2836B;
       border-style: solid;
       width: 100%;
       transform: scale(1,0);
       transform-origin: top;
       transition: transform 400ms ease-in-out;
+      
   }
-  
+
   nav ul {
       margin: 0;
       padding: 0;
@@ -48,7 +61,7 @@
   }
   
   nav a {
-      color: white;
+      color: black;
       text-decoration: none;
       font-size: 1.2rem;
       text-transform: uppercase;
@@ -57,7 +70,7 @@
   }
   /* where to change the font color of the nav bar pop-up */
   nav a:hover {
-      color: #F2E1AC;
+      color: #CD2C24;
   }
   
   .nav-checkbox:checked ~ nav {
@@ -159,6 +172,10 @@
     nav a:hover::before {
       transform: scale(1,1);
     }
+
+    
   }
+
+  
   
   

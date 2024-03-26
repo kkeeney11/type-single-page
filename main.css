@@ -11,7 +11,7 @@
      } */
 
     body{
-    background-color: #f8917a;
+    background-image: url("assets/grid.png"); 
     font-family: 'Fraunces';
     margin:0;
     padding:0;
@@ -40,53 +40,68 @@ grid-template-areas:
 
 #history {
 grid-area: h;
-margin-left: 10px;
+font-size: 20px;
+margin-left: -90px;
+margin-top: 100px;
+margin-bottom: 600px;
 background-color: #F2594B;
 border-color: #F2594B;
 border-style: solid; 
 border-width: 10px;
 border-radius: 10px;
 text-align: left;
-
+font-variation-settings: "opsz" 100, "wght" 400, "SOFT" 0, "WONK" 0;
 }
 
 #variations{
 grid-area: v; 
-margin-left: 10px;
+margin-left: 20px;
+margin-right: 20px;
 margin-top: -40px;
 text-align: left; 
-background-color: #F2E1AC;
+background-color:#F2E1AC;
 border-color: #F2E1AC;
 border-style: solid; 
 border-width: 10px;
 border-radius: 10px;
 font-variation-settings: "opsz" 500, "wght" 300, "SOFT" 0, "WONK" 0;
-
+margin-bottom: 750px;
 }
 
 .glyphs{
-    font-size:60px;
-    letter-spacing: 20px;
+    font-size: 67px;
+    letter-spacing: 30px;
 }
 
 #alphabet {
-grid-area: a;
+grid-area: v;
+background: #f2836b;
+border-color: #f2836b;
+border-style: solid; 
+border-width: 10px;
+border-radius: 10px;
+margin-top: 900px;
+margin-bottom: 300px;
+}
+
+.letters {
+    font-size: 30px;
 }
 
 /* CSS for the footer */
 footer{
-    background-color: #b3b3b3;
-    background-image: url("assets/grid.png");  
+    background-color: #63a69f; 
 }
 
-
+/*background-image: url("assets/grid.png"); 
 /* variable font animation */
 h3{
     font-weight:30; 
     text-align: center;
     font-size: 5em;
     font-variation-settings: "opsz" 50, "wght" 700, "SOFT" 0, "WONK" 0;
-    background-image: url("assets/grid.png"); 
+    background-color: #F2E1AC;
+    
 }
 h4{
     font-weight:20; 
@@ -109,16 +124,18 @@ h5{
     font-variation-settings: "opsz" 70, "wght" 500, "SOFT" 0, "WONK" 0;
     margin-top: -90px;
     padding-top: 0px;
-    background-color: white;
+    background-color: #F2E1AC;
 }
 
 h6{ 
     font-weight:20; 
+    color: black;
     text-align: center;
     font-size: 5em;
     animation: weightChange 7s infinite;
     margin-top: 90px;
     text-align: center; 
+    background-color: #63a69f;
 }
 
 @keyframes weightChange {
@@ -161,26 +178,29 @@ footer {
     display: grid;
     grid-gap: 3px;
     padding:10px;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: auto auto auto;
-    grid-template-areas: 
-        ". c c c c c c . . w . ."
-        ". c c c c c c . . s . ."
-        ". c c c c c c . . b . .";
+    word-spacing: 10px;
+}
+h8{
+    font-size: 25px;
+    line-height: 50px;
+    
+    
 }
 
-.contact-wrapper {
-    grid-area: c;
+h11{
+    font-size: 40px;
+    text-align: bottom;
+   
 }
-
-.circle-wrapper{
-  grid-area: w;
+h10{
+    font-size: 20px;
+    margin-bottom: -5px;
+    margin-top: 30px;
+   
 }
-.star-wrapper {
-    grid-area: s;
+h9{
+    text-align: left;
+    text-indent: 20px;
+    font-size: 18px;
+  
 }
-
-.star-burst-wrapper {
-    grid-area: b;
-}
-
