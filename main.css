@@ -84,6 +84,7 @@ margin-top: 900px;
 margin-bottom: 300px;
 }
 
+
 .letters {
     font-size: 30px;
 }
@@ -184,23 +185,22 @@ h8{
     font-size: 25px;
     line-height: 50px;
     
-    
 }
 
 h11{
     font-size: 40px;
     text-align: bottom;
-   
 }
 h10{
     font-size: 20px;
     margin-bottom: -5px;
     margin-top: 30px;
-   
 }
 h9{
     text-align: left;
     text-indent: 20px;
     font-size: 18px;
-  
 }
+
+h12{font-size: 20px;
+    font-variation-settings: "opsz" , "wght" 500, "SOFT" 0, "WONK" 0; }
