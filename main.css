@@ -57,7 +57,7 @@ font-variation-settings: "opsz" 100, "wght" 400, "SOFT" 0, "WONK" 0;
 grid-area: v; 
 margin-left: 20px;
 margin-right: 20px;
-margin-top: -40px;
+margin-top: 30px;
 text-align: left; 
 background-color:#F2E1AC;
 border-color: #F2E1AC;
@@ -84,7 +84,6 @@ margin-top: 900px;
 margin-bottom: 300px;
 }
 
-
 .letters {
     font-size: 30px;
 }
@@ -100,9 +99,8 @@ h3{
     font-weight:30; 
     text-align: center;
     font-size: 5em;
-    font-variation-settings: "opsz" 50, "wght" 700, "SOFT" 0, "WONK" 0;
+    font-variation-settings: "opsz" 9, "wght" 700, "SOFT" 0, "WONK" 0;
     background-color: #F2E1AC;
-    
 }
 h4{
     font-weight:20; 
@@ -127,6 +125,7 @@ h5{
     padding-top: 0px;
     background-color: #F2E1AC;
 }
+/* optical */
 
 h6{ 
     font-weight:20; 
@@ -134,20 +133,85 @@ h6{
     text-align: center;
     font-size: 5em;
     animation: weightChange 7s infinite;
+    margin:0;
+    /* margin-top: 90px; */
+    background-color: #63a69f;
+}
+@keyframes weightChange {
+    0%, 100%{
+        font-variation-settings: "opsz" 9, "wght" 500, "SOFT" 0, "WONK" 0;
+    }
+    50%{ 
+        font-variation-settings: "opsz" 144, "wght" 500, "SOFT" 0, "WONK" 0;
+    }
+}
+/* Softness */
+
+.softness{
+    animation: WeightChange 7s infinite;   
+   }
+h7{ 
+    font-weight:20; 
+    color: black;
+    text-align: center;
+    font-size: 5em;
+    animation: WeightChange 7s infinite;
+    margin-top: 90px; 
+    background-color: #63a69f;
+}
+@keyframes WeightChange {
+    0%, 100%{
+        font-variation-settings: "opsz" 50, "wght" 500, "SOFT" 0, "WONK" 0;
+    }
+    50%{ 
+        font-variation-settings: "opsz" 50, "wght" 500, "SOFT" 100, "WONK" 0;
+    }
+}
+/* weight */
+.weight{
+    animation: wEightChange 7s infinite;
+}
+h8{ 
+    font-weight:20; 
+    color: black;
+    text-align: center;
+    font-size: 5em;
+    animation: wEightChange 7s infinite;
     margin-top: 90px;
-    text-align: center; 
     background-color: #63a69f;
 }
 
-@keyframes weightChange {
+@keyframes wEightChange {
     0%, 100%{
         font-variation-settings: "opsz" 50, "wght" 100, "SOFT" 0, "WONK" 0;
     }
     50%{ 
-        font-variation-settings: "opsz" 50, "wght" 700, "SOFT" 0, "WONK" 1;
+        font-variation-settings: "opsz" 50, "wght" 900, "SOFT" 0, "WONK" 0;
     }
-    
 }
+/* wonk */
+.wonk{
+    animation: Weightchange 7s infinite;
+}
+h9{ 
+    font-weight:20; 
+    color: black;
+    text-align: center;
+    font-size: 5em;
+    animation: Weightchange 7s infinite;
+    margin-top: 90px;
+    background-color: #63a69f;
+}
+
+@keyframes Weightchange {
+    0%, 100%{
+        font-variation-settings: "opsz" 144, "wght" 500, "SOFT" 0, "WONK" 0;
+    }
+    50%{ 
+        font-variation-settings: "opsz" 144, "wght" 500, "SOFT" 0, "WONK" 1;
+    }
+}
+
 /* variable font that changes on hover */
 .variable-font{
     font-weight:1 ;
@@ -181,26 +245,36 @@ footer {
     padding:10px;
     word-spacing: 10px;
 }
-h8{
+
+h10{
     font-size: 25px;
     line-height: 50px;
     
 }
 
 h11{
-    font-size: 40px;
-    text-align: bottom;
-}
-h10{
-    font-size: 20px;
-    margin-bottom: -5px;
-    margin-top: 30px;
-}
-h9{
     text-align: left;
     text-indent: 20px;
     font-size: 18px;
 }
+h12{
+    font-size: 20px;
+    margin-bottom: -5px;
+    margin-top: 30px;
+}
+h13{
+    font-size: 40px;
+    text-align: bottom;
+}
 
-h12{font-size: 20px;
-    font-variation-settings: "opsz" , "wght" 500, "SOFT" 0, "WONK" 0; }
+h14{    
+    font-weight:10; 
+    text-align: center;
+    font-size: 3em;
+    text-indent: 250px;
+    font-variation-settings: "opsz" 70, "wght" 500, "SOFT" 0, "WONK" 0;
+    margin-top: -90px;
+    padding-top: 0px;
+    background-color: #F2E1AC;
+}
+
