@@ -1,2 +1,2 @@
 # type-single-page
- 
+ This page was created to explore the font Fraunces by Phaedra Charles, Flavia Zimbardi. The page was created by Kendall Keeney in Web Typography at Umass Dartmouth. The reason I choose this font was because of the variety it provided specifically the Wonk axis. After choosing this font I went straight into code trying to avoid putting everything down in figma but realixed soon that it wasn't working and started to put my ideas into figma. I found a color scheme and figured out the layout I wanted. After doing this I started to code. I had issues with getting all the different axes presented in the way I wanted but eventually got it. Doing this project made me realize how hard making a website look nice and accessable is. 
